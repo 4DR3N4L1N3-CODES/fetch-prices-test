@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Prices</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Token Prices</h1>
+        <input type="text" id="token-search" placeholder="Enter token symbol (e.g., sol, btc)">
+        <button id="search-button">Search</button>
+        <div id="token-prices" class="token-prices"></div>
+
+        <h2>ERC20 Balances</h2>
+        <input type="text" id="wallet-address" placeholder="Enter wallet address" />
+        <button id="fetch-balances">Fetch Balances</button>
+        <div id="wallet-balances"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
